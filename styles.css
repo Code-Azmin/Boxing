@@ -106,6 +106,20 @@ body{
     background: inherit;
 }
 
+/* Hamburger Line [Bottom] */
+
 .menu-wrap .hamburger > div:after{
     top: 10px;
+}
+
+/* Toggler Animation */
+
+.menu-wrap .toggler:checked + .hamburger > div{
+    transform: rotate(135deg);
+}
+
+.menu-wrap .toggler:checked + .hamburger > div::before,
+.menu-wrap .toggler:checked + .hamburger > div::after{
+    
+    transform: rotate(90deg);
 }
