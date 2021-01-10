@@ -60,7 +60,7 @@ body{
 .menu-wrap .toggler{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0; 
     z-index: 2;
     cursor: pointer;
     width: 50px;
@@ -93,7 +93,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 /* Hamburger Lines [Top & Bottom] */
@@ -134,3 +134,66 @@ body{
 .menu-wrap .toggler:checked:hover + .hamburger > div{
     transform: rotate(225deg);
 } 
+
+/* Show Menu */
+
+.menu-wrap .toggler:checked ~ .menu{
+ visibility: visible;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div{
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div{
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.menu-wrap .menu{
+   position: fixed; 
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   visibility: hidden;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.menu-wrap .menu > div{
+    background-color: rgba(0,255,0,0.3);
+    border-radius: 25%;
+    width: 125vw;
+    height: 125vh;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+
+.menu-wrap .menu > div > div{
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0; 
+    
+}
+
+.menu-wrap .menu > div > div > ul > li{
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.menu-wrap .menu > div > div > ul > li > a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+
