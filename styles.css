@@ -35,16 +35,21 @@ body{
 }
 
 .showcase .showcase-wrapper{
-    display: flex;
-   
-    align-items: center;
+    display: block;
     text-align: center;
     height: 100%;
 }
 
 .showcase h1{
+    position: relative;
+    bottom: 10px;
     font-size: 4rem;
     
+}
+
+.showcase h1 .title{
+    font-family: 'Cabin Sketch', cursive;
+    color: purple;
 }
 
 .showcase p{
