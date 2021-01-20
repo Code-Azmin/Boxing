@@ -48,8 +48,14 @@ body{
 }
 
 .showcase h1 .title{
+    display: block;
     font-family: 'Cabin Sketch', cursive;
-    color: purple;
+    color: 	#fff510;
+    
+}
+
+.showcase h1 .title:nth-child(2){
+    
 }
 
 .showcase p{
@@ -203,5 +209,11 @@ body{
     text-decoration: none;
     transition: color 0.5s ease;
 }
+
+a{
+    color:#255784;
+    background-color: yellow;
+}
+
 
 
