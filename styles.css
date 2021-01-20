@@ -51,11 +51,8 @@ body{
     display: block;
     font-family: 'Cabin Sketch', cursive;
     color: 	#fff510;
-    
-}
+    letter-spacing: 20px;
 
-.showcase h1 .title:nth-child(2){
-    
 }
 
 .showcase p{
