@@ -184,6 +184,7 @@ body{
 
 .menu-wrap .toggler:checked ~ .menu > div{
     transform: scale(1);
+    background-image: url(shoryuken.jpg);
     transition-duration: 0.5s;
 }
 
@@ -267,7 +268,7 @@ a{
     0% {
         transform:rotateY(0deg);
     }
-    
+
     100% {
         transform:rotateY(720deg);
     }
