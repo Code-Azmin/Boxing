@@ -186,6 +186,7 @@ body{
     transform: scale(1);
     background-image: url(shoryuken.jpg);
     transition-duration: 0.5s;
+    background-size: cover;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div{
