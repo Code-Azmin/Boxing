@@ -184,9 +184,10 @@ body{
 
 .menu-wrap .toggler:checked ~ .menu > div{
     transform: scale(1);
-    background-image: url(shoryuken.jpg);
     transition-duration: 0.5s;
-    background-size: cover;
+    background-color: red;
+    opacity: 0.5;
+    
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div{
