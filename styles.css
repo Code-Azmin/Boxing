@@ -186,8 +186,7 @@ body{
     transform: scale(1);
     transition-duration: 0.5s;
     background-color: black;
-    opacity: 0.75;
-    
+    opacity: 0.9;
 }
 
 .menu-wrap .toggler:checked ~ .menu > div > div{
@@ -223,15 +222,15 @@ body{
     text-align: center;
     max-width: 90vw;
     max-height: 100vh;
-    opacity: 0; 
-    
+    opacity: 0;    
 }
 
 .menu-wrap .menu > div > div > ul > li{
     list-style: none;
-    height: 80px;
+    display: relative;
     background-color: green;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .menu-wrap .menu > div > div > ul > li > a{
@@ -240,6 +239,7 @@ body{
     color: inherit;
     text-decoration: none;
     transition: color 0.5s ease;
+    margin: 50px;
 }
 
 a{
