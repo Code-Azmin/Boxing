@@ -228,7 +228,7 @@ body{
 .menu-wrap .menu > div > div > ul > li{
     list-style: none;
     display: relative;
-    background-color: green;
+    background-color: black;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -236,15 +236,18 @@ body{
 .menu-wrap .menu > div > div > ul > li > a{
     position: relative;
     display: block;
-    color: inherit;
+    color: #f5f5fc;
     text-decoration: none;
     transition: color 0.5s ease;
     margin: 50px;
 }
 
-a{
-    color:#255784;
-    
+.menu-wrap .menu > div > div > ul > li > a:hover{
+    color: #255784;
+    box-shadow: 0 0 10px #2196f3,
+                0 0 10px #2196f3,
+                0 0 10px #2196f3;
+    transition-delay: 1s;
 }
 
 @keyframes title{
