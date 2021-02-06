@@ -255,10 +255,10 @@ body{
 #highlight{
     position: absolute;
     display: block;
-    color: blue;
+    color: red;
 }
 
-#highlight
+
 
 @keyframes title{
     0% {
