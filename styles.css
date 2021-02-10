@@ -227,19 +227,23 @@ body{
 
 .menu-wrap .menu > div > div > ul > li{
     list-style: none;
-    display: relative;
-    background-color: black;
+    display: block;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .menu-wrap .menu > div > div > ul > li > a{
     position: relative;
-    display: block;
-    color: #f5f5fc;
+    display: inline-block;
+    color: blue;
     text-decoration: none;
     transition: color 0.5s ease;
-    margin: 50px;
+    margin: 25px;
+}
+
+.menu-wrap .menu > div > div > ul > li > a:hover{
+    background: linear-gradient(90deg,transparent, gold);
+    
 }
 
 /*
@@ -251,13 +255,6 @@ body{
     transition-delay: 1s;
 }
 */
-
-#highlight{
-    position: absolute;
-    display: block;
-    color: red;
-}
-
 
 
 @keyframes title{
