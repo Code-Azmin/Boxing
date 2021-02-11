@@ -208,7 +208,6 @@ body{
 }
 
 .menu-wrap .menu > div{
-    
     width: 125vw;
     height: 125vh;
     display: flex;
@@ -235,33 +234,88 @@ body{
 .menu-wrap .menu > div > div > ul > li > a{
     position: relative;
     display: inline-block;
-    color: blue;
+    color: #2196f3;
     text-decoration: none;
-    transition: color 0.5s ease;
-    margin: 25px;
+    transition: 0.2s;
+    margin: 20px;
+    padding: 5px 10px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.menu-wrap .menu > div > div > ul > li > a span{
+    position: absolute;
+    display: block;
+}
+
+.menu-wrap .menu > div > div > ul > li > a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 150%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+
+.menu-wrap .menu > div > div > ul > li > a:hover span:nth-child(1){
+    left: 100%;
+    transition: 0.25s;
+}
+
+.menu-wrap .menu > div > div > ul > li > a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+
+.menu-wrap .menu > div > div > ul > li > a:hover span:nth-child(2){
+    top: 100%;
+    transition: 0.25s;
+    transition-delay: 0.25s;
+}
+
+.menu-wrap .menu > div > div > ul > li > a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 150%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+ 
+.menu-wrap .menu > div > div > ul > li > a:hover span:nth-child(3){
+    right: 100%;
+    transition: 0.25s;
+    transition-delay: 0.5s;
+}
+
+.menu-wrap .menu > div > div > ul > li > a span:nth-child(4){
+    bottom: -100%;
+    left: 0px;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+}
+ 
+.menu-wrap .menu > div > div > ul > li > a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 0.25s;
+    transition-delay: 0.75s;
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover{
-    background: linear-gradient(90deg,transparent, gold);
-    
-}
-
-/*
-.menu-wrap .menu > div > div > ul > li > a:hover{
-    color: #255784;
+    color: black;
     box-shadow: 0 0 10px #2196f3,
                 0 0 40px #2196f3,
                 0 0 80px #2196f3;
     transition-delay: 1s;
 }
-*/
-
 
 @keyframes title{
     0% {
         transform: translateY(-500px)
     }
-    
     100% {
         transform: translateY(0px)
     }
