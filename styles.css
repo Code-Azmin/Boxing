@@ -236,7 +236,6 @@ body{
     display: inline-block;
     color: #2196f3;
     text-decoration: none;
-    transition: 0.2s;
     margin: 20px;
     padding: 5px 10px;
     letter-spacing: 5px;
@@ -305,11 +304,30 @@ body{
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover{
-    color: black;
+    color: #6ab8f7;
     box-shadow: 0 0 10px #2196f3,
                 0 0 40px #2196f3,
                 0 0 80px #2196f3;
     transition-delay: 1s;
+}
+
+.sport-showcase{
+    position: absolute;
+    background: blue;
+    opacity: 0.65;
+    height: 400px;
+    width: 650px;
+    margin-right: 150px;
+}
+
+.sport-showcase-wrapper{
+    background: url(gloves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    
+    
 }
 
 @keyframes title{
