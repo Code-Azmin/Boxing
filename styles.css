@@ -311,6 +311,16 @@ body{
     transition-delay: 1s;
 }
 
+.info{
+    top: 225px;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: black;
+    background: #dce9f5;
+    padding: 8px;
+    
+}
 
 @keyframes title{
     0% {
