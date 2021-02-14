@@ -311,16 +311,20 @@ body{
     transition-delay: 1s;
 }
 
-.info{
-    top: 225px;
+.downward-arrow{
+    display: inline-block;
     position: relative;
-    text-transform: capitalize;
-    font-size: 24px;
-    color: black;
-    background: #dce9f5;
-    padding: 8px;
-    
+    border: 2px solid black;
+    height: 35px;
+    width: 200px;
+    top: 250px;
+    background: url(down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
 }
+
+
+    
 
 @keyframes title{
     0% {
