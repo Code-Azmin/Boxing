@@ -312,15 +312,23 @@ body{
 }
 
 .downward-arrow{
-    display: inline-block;
+    display: block;
     position: relative;
-    border: 2px solid black;
-    height: 35px;
-    width: 200px;
-    top: 250px;
-    background: url(down-arrow.png);
+    bottom: 5px;
+    right: 8px;
+    height: 20px;
+    width: 20px;
+    background: url(downward-arrow.png);
+    
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 35px;
+}
+
+.info{
+    background-color: #ff0000;
+    height: 35px;
+    width: 350px;
+    
 }
 
 
