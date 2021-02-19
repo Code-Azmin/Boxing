@@ -315,9 +315,10 @@ body{
 
 .info-container{
     position: absolute;
-    top: auto;
+    top: 70%;
     right: 25%;
-    opacity: 0.5;
+    background: url(boxing.jpg);
+    border: none;
     height: 180px;
     width: 50%;
 }
@@ -326,25 +327,20 @@ body{
     display: flex;
     position: relative;
     font-size: 32px;
-    align-self: flex-end;
-    left: 100px;
-    
+    padding-left: 125px;    
 }
 
 .arrow{
     display: block;
-    align-content: center;
-    border-bottom: 2px solid gold;
-    border-right: 2px solid gold;
+    position: relative;
+    left: 175px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    opacity: 1;
     width: 20px;
     height: 20px;
     transform: rotate(45deg);
-
-
 }
-
-
-    
 
 @keyframes title{
     0% {
