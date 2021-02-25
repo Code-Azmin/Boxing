@@ -270,7 +270,7 @@ body{
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover span:nth-child(2){
-    top: 100%;
+    top: 100%;  
     transition: 0.25s;
     transition-delay: 0.25s;
 }
@@ -315,7 +315,8 @@ body{
     display: block;
     position: relative;
     font-size: 32px;
-    top: 75px; 
+    top: 275px;
+    left: 260px; 
 }
 
 .arrow{
