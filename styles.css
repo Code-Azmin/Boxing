@@ -65,11 +65,6 @@ body{
     animation: title 0.5s forwards;
 }
 
-.showcase h1 .title:nth-child(1){
-    display: inline-block;
-    position: relative;
-    color: #fff510;
-}
 
 .title-xtra{
     display: inline-block;
@@ -78,11 +73,11 @@ body{
 }
 
 
-.showcase h1 .title:nth-child(3) #xtra{
+.showcase h1 .title .xtra{
     display: inline-block;
     position: relative;
-    color: black;
     animation: upsidedown 3s infinite;
+    color:black;
 }
 
 
@@ -314,9 +309,15 @@ body{
 .info{
     display: block;
     position: relative;
-    font-size: 32px;
-    top: 275px;
-    left: 260px; 
+    font-size: 20px;
+    padding: 10px 12px;
+    top: 255px;
+    left: 263.5px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.548);
+    background: black;
+    color: #ffffff;
+    
 }
 
 .arrow{
@@ -361,7 +362,7 @@ body{
     }
 }
 
-@keyframes downsideup{
+@keyframes downsideup{ 
     0% {
         transform:rotateZ(0deg);
     }
