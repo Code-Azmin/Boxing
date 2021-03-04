@@ -312,12 +312,15 @@ body{
     font-size: 20px;
     padding: 10px 12px;
     top: 255px;
-    left: 263.5px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.548);
+    left: 275px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.623);
     background: black;
     color: #ffffff;
-    
+}
+
+.info:hover{
+    border-radius: 25px;
 }
 
 .arrow{
@@ -346,7 +349,7 @@ body{
 @keyframes title{
     0% {
         transform: translateY(-500px)
-    }
+    } 
     100% {
         transform: translateY(0px)
     }
