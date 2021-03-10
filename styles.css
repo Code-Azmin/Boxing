@@ -19,6 +19,11 @@ body{
 .showcase{
     position: relative;
     height: 100vh;
+    font-size: 1.3rem;
+}
+
+.showcase-x{
+    height: 100vh;
 }
 
 .showcase::before{
@@ -78,11 +83,6 @@ body{
     position: relative;
     animation: upsidedown 3s infinite;
     color:black;
-}
-
-
-.showcase {
-        font-size: 1.3rem;
 }
 
 .menu-wrap{
@@ -314,6 +314,7 @@ body{
     top: 255px;
     left: 275px;
     border-radius: 25px;
+    border-style: none;
     box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.623);
     background: black;
     color: #ffffff;
