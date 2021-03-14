@@ -24,8 +24,6 @@ body{
 
 .showcase-x{
     height: 100vh;
-    background: url(nature.jpg);
-    background-position: center;
 }
 
 .showcase::before{
