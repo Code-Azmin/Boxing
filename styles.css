@@ -24,6 +24,7 @@ body{
 
 .showcase-x{
     height: 100vh;
+    background-color: black;
 }
 
 .showcase::before{
