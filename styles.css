@@ -31,7 +31,7 @@ body{
 }
 
 .showcase-x-wrapper{
-  
+    font-family: 'Syne Mono', monospace;
 }
 
 .showcase::before{
