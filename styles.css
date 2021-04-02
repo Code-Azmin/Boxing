@@ -28,10 +28,18 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
 .showcase-x-wrapper{
     font-family: 'Syne Mono', monospace;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+
+.history{
+    width: 400px;
 }
 
 .showcase::before{
@@ -62,7 +70,7 @@ body{
 .showcase h1 .title{
     display: block;
     font-family: 'Cabin Sketch', cursive;
-    color: 	#fff510;
+    color: #ffd700;
     letter-spacing: 20px;
 }
 
