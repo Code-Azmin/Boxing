@@ -43,6 +43,7 @@ body{
     font-family: 'New Tegomin', serif;
     font-size: 18px;
     width: 400px;
+    line-height: 30px;
 }
 
 .showcase::before{
