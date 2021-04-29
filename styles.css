@@ -36,6 +36,9 @@ body{
     font-family: 'Syne Mono', monospace;
     text-transform: capitalize;
     font-size: 24px;
+    padding: 5px;
+    position: relative;
+    animation: shift 0.75s forwards;
 }
 
 
@@ -45,6 +48,7 @@ body{
     width: 400px;
     line-height: 30px;
 }
+
 
 .showcase::before{
     content: '';
@@ -367,12 +371,22 @@ body{
     animation-delay: -0.4s;
 }
 
+@keyframes shift{
+    0% {
+        right: -500px
+    }
+    100% {
+        right: 0px
+    }
+}
+
+
 @keyframes title{
     0% {
-        transform: translateY(-500px)
+        transform: translateY(-500px);
     } 
     100% {
-        transform: translateY(0px)
+        transform: translateY(0px);
     }
 }
 
