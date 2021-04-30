@@ -38,7 +38,7 @@ body{
     font-size: 24px;
     padding: 5px;
     position: relative;
-    animation: shift 0.75s forwards;
+    animation: shift-right 0.75s forwards;
 }
 
 
@@ -47,6 +47,8 @@ body{
     font-size: 18px;
     width: 400px;
     line-height: 30px;
+    position: relative;
+    animation: shift-left 0.75s forwards;
 }
 
 
@@ -371,7 +373,16 @@ body{
     animation-delay: -0.4s;
 }
 
-@keyframes shift{
+@keyframes shift-left{
+    0% {
+        left: -500px
+    }
+    100% {
+        left: 0px
+    }
+}
+
+@keyframes shift-right{
     0% {
         right: -500px
     }
