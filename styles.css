@@ -33,9 +33,9 @@ body{
 }
 
 .showcase-x-wrapper{
-    font-family: 'Syne Mono', monospace;
+    font-family: 'Sigmar One', cursive;
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 22px;
     padding: 5px;
     position: relative;
     animation: shift-right 0.75s forwards;
