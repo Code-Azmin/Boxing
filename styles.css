@@ -332,7 +332,7 @@ body{
     transition-delay: 1s;
 }
 
-.info{
+#info{
     display: block;
     position: relative;
     font-size: 20px;
