@@ -23,7 +23,6 @@ body{
 }
 
 .showcase-x{
-    height: 100vh;
     display: flex;
     background-color: #f5f5dc;
     flex-direction: column;
@@ -332,13 +331,16 @@ body{
     transition-delay: 1s;
 }
 
+/* More Info Button */
+
 #info{
     display: block;
     position: relative;
     font-size: 20px;
     padding: 10px 12px;
     top: 255px;
-    left: 275px;
+    left: 280px;
+    bottom: 25px;
     border-radius: 25px;
     border-style: none;
     box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.623);
@@ -409,6 +411,7 @@ body{
     100% {
         transform:rotateX(360deg);
     }
+    
 }
 
 @keyframes downsideup{ 
@@ -436,6 +439,13 @@ body{
         opacity: 0;
         transform: rotate(45deg) translate(20px, 20px);
         
+    @media(max-width: 768px;){
+        .menu-wrap,
+
+            float:none;
+            text-align:center;
+            width: 100%;
         
+    }
     }
 }
